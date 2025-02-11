@@ -1,0 +1,4 @@
+INDEX VERSION 1.134+C:\Estudos\Dio\Java\Desafio-Banco-Digital\.metadata\.plugins\org.eclipse.jdt.core
+1664979483.index
+1865797976.index
+2244463335.index

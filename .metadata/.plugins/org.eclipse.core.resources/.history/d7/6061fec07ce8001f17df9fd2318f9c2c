@@ -1,0 +1,6 @@
+package desafio_banco_digital;
+
+public class ContaPoupanca extends Conta{
+	System.out.println("=== EXTRATO CONTA POUPANCA ===");
+	super().imprimirInfosComuns();
+}

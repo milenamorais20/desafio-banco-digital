@@ -1,0 +1,6 @@
+package desafio_banco_digital;
+
+public class ContaCorrente extends Conta{
+	System.out.println("=== EXTRATO CONTA CORRENTE ===");
+	super().imprimirInfosComuns();
+}

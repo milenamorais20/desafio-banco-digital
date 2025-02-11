@@ -1,0 +1,52 @@
+package desafio_banco_digital;
+
+public abstract class Conta implements IConta{
+	private static final int AGENCIA = 1;
+	private static int SEQUENCIAL = 1;
+	
+	private int agencia;
+	private int numero;
+	private double saldo;
+		
+	public Conta() {
+		this.agencia = AGENCIA;
+		this.numero = SEQUENCIAL++;
+	}
+
+	public int getAgencia() {
+		return agencia;
+	}
+
+	public int getNumero() {
+		return numero;
+	}
+
+	public double getSaldo() {
+		return saldo;
+	}
+	
+	@Override
+	public void sacar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void depositar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void transferir(Conta contaDestino, double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	protected void imprimirInfosComuns() {
+		System.out.println("AGENCIA: "+ this.agencia);
+		System.out.println("NUMERO: "+ this.numero);
+		System.out.println("SALDO: "+ this.saldo);
+
+	}
+}

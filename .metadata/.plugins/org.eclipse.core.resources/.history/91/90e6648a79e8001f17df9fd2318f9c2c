@@ -1,0 +1,21 @@
+package desafio_banco_digital;
+
+public class ContaCorrente extends Conta{
+	@Override
+	public void sacar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void depositar(double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void transferir(Conta conta, double valor) {
+		// TODO Auto-generated method stub
+		
+	}
+}
